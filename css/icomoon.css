@@ -1,17 +1,18 @@
 @font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?1oniuf');
-    src:    url('fonts/icomoon.eot?1oniuf#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?1oniuf') format('truetype'),
-        url('fonts/icomoon.woff?1oniuf') format('woff'),
-        url('fonts/icomoon.svg?1oniuf#icomoon') format('svg');
+    font-family: "icomoon";
+    src: url("fonts/icomoon.eot?1oniuf");
+    src: url("fonts/icomoon.eot?1oniuf#iefix") format("embedded-opentype"),
+        url("fonts/icomoon.ttf?1oniuf") format("truetype"),
+        url("fonts/icomoon.woff?1oniuf") format("woff"),
+        url("fonts/icomoon.svg?1oniuf#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
+    font-family: "icomoon" !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -1581,6 +1582,10 @@
 .icon-facebook-with-circle:before {
     content: "\ea67";
 }
+.icon-facebook2:hover {
+    content: "\ea68";
+    color: #4267b2;
+}
 .icon-facebook2:before {
     content: "\ea68";
 }
@@ -1608,6 +1613,29 @@
 .icon-instagram:before {
     content: "\ea70";
 }
+.icon-instagram:hover {
+    content: "\ea70";
+    background: #f09433;
+    border-radius: 7px;
+    background-size: contain;
+    background: -moz-linear-gradient(
+        45deg,
+        #f09433 0%5 #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+    background: #d6249f;
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
 .icon-lastfm-with-circle:before {
     content: "\ea71";
 }
@@ -1619,6 +1647,10 @@
 }
 .icon-linkedin2:before {
     content: "\ea74";
+}
+.icon-linkedin2:hover {
+    content: "\ea74";
+    color: #0072b1;
 }
 .icon-pinterest-with-circle:before {
     content: "\ea75";
@@ -1646,6 +1678,10 @@
 }
 .icon-twitter2:before {
     content: "\ea7d";
+}
+.icon-twitter2:hover {
+    content: "\ea7d";
+    color: #00acee;
 }
 .icon-vimeo-with-circle:before {
     content: "\ea7e";
@@ -3132,4 +3168,3 @@
 .icon-IcoMoon:before {
     content: "\eca7";
 }
-
