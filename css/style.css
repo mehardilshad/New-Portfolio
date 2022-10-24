@@ -728,9 +728,14 @@ figure {
 .chart {
     width: 160px;
     height: 160px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 10px auto;
     position: relative;
     text-align: center;
+    padding: 35px;
+}
+.chart img {
+    display: block;
+    width: 100%;
 }
 .chart span {
     position: absolute;
@@ -1055,7 +1060,10 @@ figure {
     float: left;
     width: 100%;
     color: #bfbfbf;
-    background: #4d4d4d;
+    background: #ff9000;
+}
+#fh5co-footer a {
+    color: #ffffff;
 }
 #fh5co-footer p:last-child {
     margin-bottom: 0;
@@ -1368,6 +1376,12 @@ input[type="text"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap; */
+}
+.row-pb-md .skills {
+    margin-bottom: 50px;
 }
 
 .row-pb-sm {
